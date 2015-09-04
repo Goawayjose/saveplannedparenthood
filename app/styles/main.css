@@ -1,0 +1,401 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #FFFFFD;
+  color: #000;
+  
+}
+
+/* Space out content a bit */
+body {
+  padding-top: -20px;
+
+}
+
+
+
+.topBack {
+    height: 850px;
+    background-image: url(../images/temple.jpg);
+      background-width: 100%;
+  background-position: top center;
+  background-attachment: fixed;
+  overflow: hidden;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+#topText {
+    font-family: 'Corben', cursive;
+    font-weight: 700;
+    z-index: 5;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 500;
+    color: #e5e5e5;
+    margin-top: -850px;
+    z-index: 0;
+}
+
+#top {
+    
+    margin-top: 230px;
+    height: 100%;
+    width: 100%;
+}
+
+
+#top2{
+    
+    margin-top: -800px;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    
+}
+
+#top3{ 
+    margin-top: -800px;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    padding: 15px;
+    background-color: #1E2340;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+    color: #6BA6BF;
+    z-index: 20;
+}
+
+.jumbotron h1 {
+    color: white;
+}
+
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+.container {
+    z-index: 4;
+    overflow: hidden;
+}
+
+
+
+.stripe {
+    height: 50px;
+    width: 100%;
+    background-color: #E5678E;
+    overflow: hidden;
+    z-index: 8;
+}
+
+.backstripe {
+    height: 50px;
+    width: 100%;
+    background-color: #6BA6BF;
+    transform: rotate(-45deg);
+    margin-left: -150px;
+}
+
+.otherbackstripe {
+    height: 8px;
+    width: 100%;
+    background-color: #1E2340;
+    transform: rotate(-45deg);
+    margin-left: -125px;
+}
+
+
+
+#question {
+    padding-top: 15px;
+    height: auto;
+    width: auto;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#question h1 {
+    color: #6BA6BF;
+}
+
+#info{
+    float: left;
+    font-size: 18px;
+    height: 60px;
+    padding: 10px;
+    border-radius:20px;
+    border-color: #1E2340;
+    background-color: transparent;
+    margin-bottom: 30px;
+}       #info:hover{
+    background-color: rgba(229, 103, 142, 0.47);
+    color: white;
+}
+#question a{    
+    color: black;
+    text-decoration: none;
+}
+#info:hover{    
+    text-decoration: none;
+    color: #1E2340;
+}
+
+
+.lead {
+    background-color: #6BA6BF;
+    height: 250px;
+    text-align: center;
+}
+
+#leadStripe {
+    
+    height: 100px;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    background-color: #1E2340;
+}
+
+#leadStripe2 {
+    margin-top: 110px;
+    height: 18px;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(30, 35, 64, 0.87);
+}
+
+#leadStripe3 {
+    margin-top: 135px;
+    height: 5px;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(30, 35, 64, 0.7);
+}
+
+#leadtext {
+    color: white;
+    z-index: 2;
+    position: absolute;
+        font-size: 30px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.lastSection {
+    height: 300px;
+    width: 100%;
+    border: 5px solid;
+    border-color: #1E2340;
+    border-radius: 10px;
+    background-color: #e5e5e5;
+    
+    overflow: hidden;
+    
+}
+
+        .lastSection h1 {
+             padding-left: 25px;
+            padding-right: 20px;
+            color: #E5678E;
+            z-index: 1;
+            }
+        .lastSection .row { 
+            z-index: 2;
+            margin-top: -10px;
+            padding-left: 25px;
+            padding-right: 20px;
+        }
+
+        #lsStripe0 {
+              height: 100px;
+    z-index: 1;
+    width: 1200px;
+    margin-top: -200px;
+    margin-left: -15px;
+    background-color: white;
+        }
+
+    #lsStripe {
+     height: 25px;
+    z-index: 1;
+    width: 100%;
+    margin-top: 20px;
+    background-color: white;
+    }
+
+    #lsStripe2 {
+     height: 12px;
+    z-index: 1;
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+    }
+    #lsStripe3 {
+    height: 3px;
+    z-index: 1;
+    width: 100%;
+    margin-top: 12px;
+    background-color: white;
+    }
+
+footer {
+    height: 250px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #1E2340;
+    padding-bottom: 15px;
+}
+
+
+footer p {
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 24px;
+    
+}
+
+footer h1 a {
+color: white;
+    z-index: 2;
+    position: absolute;
+    margin-top: 70px;
+}
+
+footer h1 a:hover {
+    text-decoration: none;
+    color: #d9f4ff;
+}
+
+#footerStripe0 {
+      height: 3px;
+    z-index: 1;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: -15px;
+    position: absolute;
+    background-color: #6BA6BF;
+}
+
+#footerStripe {
+      height: 12px;
+    z-index: 1;
+    width: 100%;
+    margin-top: 53px;
+    margin-left: -15px;
+    position: absolute;
+    background-color: #6BA6BF;
+}
+
+#footerStripe2 {
+    height: 25px;
+    z-index: 1;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: -15px;
+    position: absolute;
+    background-color: #6BA6BF;
+}
+
+#footerStripe3 {
+    height: 100px;
+    z-index: 1;
+    width: 100%;
+    margin-top: 125px;
+    margin-left: -15px;
+    position: absolute;
+    background-color: #6BA6BF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+      
+  }
+    
+    
+}
